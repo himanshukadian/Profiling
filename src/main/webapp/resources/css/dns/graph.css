@@ -1,0 +1,48 @@
+p {
+	margin: 0 28px 0px 0px;
+	display: inline-block;
+}
+
+a#iconFa {
+    margin-top: 23px;
+    color: #337ab7;
+    text-decoration: none;
+    position: absolute;
+    cursor: pointer;
+    margin-left: -10px;
+}
+a#submit {
+    margin-top: 11px;
+    position: absolute;
+    padding-left: 11px;
+    cursor: pointer;
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+    margin-top: 2px !important;
+}
+
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+        width: 272px !important;
+    height: 34px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 21px;
+    color: black;
+}
+#cont {
+    width: 1128px;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+i#iconFa {
+    margin-top: 27px !important;
+    position: absolute;
+    margin-left: -14px;
+}

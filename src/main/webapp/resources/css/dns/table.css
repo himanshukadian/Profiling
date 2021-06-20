@@ -1,0 +1,93 @@
+p {
+	margin: 0 28px 0px 0px;
+	display: inline-block;
+}
+
+#customers1 {
+    font-family: inherit;
+    border-collapse: collapse;
+    position: relative;
+    margin-left: 2px;
+    margin-top: 45px;
+    text-align: justify;
+    background-color: #fff;
+}
+
+#customers1 td, #customers1 th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	color: black;
+}
+
+#customers tr:nth-child(even) {
+	background-color: black;
+	color:white;
+}
+
+#customers1 tr:hover {
+	background-color: #fff;
+}
+a#iconFa {
+    margin-top: 23px;
+    color: #337ab7;
+    text-decoration: none;
+    position: absolute;
+    cursor: pointer;
+    margin-left: -10px;
+}
+#customers1 th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #fff;
+	color: black;
+}
+
+.clickToAddActive {
+	background: #364F6A !important;
+}
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%;
+    margin-top: 2px !important;
+}
+.dataTables_wrapper {
+    position: absolute !important;
+    clear: both;
+    zoom: 1;
+    margin-top: 99px !important;
+}
+
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+        width: 272px !important;
+    height: 34px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 21px;
+    color: black;
+} 
+#cont{
+	width: 1170px;
+    margin-top: 10px !important;
+    margin-left: 191px !important;
+}
+i#iconFa {
+    margin-top: 27px !important;
+    position: absolute;
+    margin-left: -14px;
+}
+button#e1 {
+    float: right;
+    margin-top: 17px;
+}
+select#ut {
+    height: 29px;
+    margin: 6px 0px 0px 6px;
+    width: 21.66%;
+    color: #666;
+    margin-left: 129px;
+    border-radius: 4px 4px 4px 4px;
+}

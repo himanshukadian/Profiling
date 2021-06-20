@@ -1,0 +1,27 @@
+label#lbl {
+	width: 100px;
+	text-align: center;
+	color: black !important;
+}
+
+.container {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-right: auto;
+	margin-left: 30% !important;
+	margin-top: 4% !important;
+}
+
+select.selectpicker {
+	width: 148px;
+	height: 25px;
+	margin-left: 1%;
+}
+
+.common {
+	padding-left: 14px;
+	width: 22.5%;
+	height: 36px;
+	margin-left: 14px;
+	color: #666;
+}

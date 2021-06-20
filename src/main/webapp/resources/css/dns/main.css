@@ -1,0 +1,296 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #c8c7cc !important;
+	background-color: #fff;
+	overflow-x: hidden;
+	overflow-y: sroll;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+a.logo {
+	color: #1a66bd;
+	text-decoration: none;
+	background-color: transparent;
+	position: absolute;
+	margin-left: 36%;
+	margin-top: 5%;
+}
+
+#headerLeft {
+	position: relative;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+	cursor: pointer;
+}
+
+#leftContent {
+	color: #c8c7cc;
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
+	height: 48px;
+	padding-top: 17px;
+	margin-left: -1px;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 0px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+#title {
+	border: 1px solid #234975;
+	min-height: 50px;
+	background-color: #18283a;
+	padding: 0rem 0rem;
+	display: block;
+	margin: 0;
+	position: fixed;
+}
+
+#logo {
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
+	position: relative;
+	width: 100%;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+div#liPortion {
+	border: 1px solid #666;
+	width: 209px;
+	height: -webkit-fill-available;
+	background-color: #0e161f;
+	position: fixed;
+	margin-top: 2px;
+}
+
+li#sidebar_content {
+	position: relative;
+	display: block;
+	width: 207px;
+	margin-left: 0px;
+	text-align: start;
+	padding-top: 17px;
+	margin-top: -1px;
+	border-bottom: 1px solid #fff;
+	height: 50px;
+	font-size: 12px;
+	border-top: 1px solid #fff;
+}
+
+a#idWithContent {
+	text-decoration: none;
+	margin-left: 8% !important;
+	color: #c8c7cc;
+}
+
+.active:hover {
+	background: #666;
+	border: 1px solid #0e161f;
+}
+
+i#iContent {
+	width: 200px;
+	margin-left: 9px;
+}
+
+div#contentDisplay {
+	margin-top: 0.9%;
+	margin-left: 15.6%;
+	color: #666;
+	overflow-y: scroll;
+	height: -webkit-fill-available;
+	border: 1px solid white;
+	width: 84%;
+}
+
+.sidebarDummy {
+	width: 208px;
+	height: -webkit-fill-available;
+	z-index: 1000;
+}
+
+.col-sm-6 {
+	position: relative;
+	min-height: 0px;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	width: 50%;
+}
+
+div#headerSection {
+	width: 100%;
+	border: 1px solid;
+	position: fixed;
+}
+
+div#container {
+	width: 100%;
+	height: 52px;
+	background-color: #18283a;
+	position: fixed;
+	z-index: 1000;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #fff;
+	padding-top: 1px;
+	margin-top: 1px;
+}
+
+.dummy {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+}
+
+div#logo {
+	margin-top: 0px;
+	font-size: 17px;
+	background: #0e161f;
+	width: 208px;
+	height: 48px;
+	cursor: pointer;
+	border-right: 1px solid #fff;
+}
+
+#sidebar {
+	width: 207px;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 0px;
+	height: -webkit-fill-available;
+	background: dimgrey;
+}
+
+ul.nav.nav-sidebar {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	position: absolute;
+	width: 207px;
+	background-color: #18283a;
+	color: #fff;
+	font-family: "Open Sans", sans-serif, 'clip-font';
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-size: 13px;
+	font-weight: 100;
+}
+
+#middle {
+	position: relative;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 100%;
+}
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	width: 100%;
+}
+
+#leftCont {
+	width: 25%;
+	position: relative;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#graphDiv {
+	position: absolute;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 3px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.forRow {
+	margin-top: 27px;
+	width: 100%;
+	height: -webkit-fill-available;
+}
+
+#graphForm {
+	margin-left: 20%;
+	color: #18283a;
+	margin-top: 4px;
+}
+
+#e {
+	width: 100px;
+	background-color: lightslategray;
+	font-family: sans-serif;
+	border: 1px solid white !important;
+	margin-left: 0%;
+	text-align: center;
+	height: 33px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+i#faicon {
+	float: left;
+	margin-left: 2px;
+	color: red;
+}
+
+i#faicon2 {
+	float: left;
+	margin-left: 209px;
+	color: lightgreen;
+}
+
+.forDate {
+	background-color: #666;
+	width: 30%;
+	height: 38px;
+	padding-left: 16px;
+	font-size: 14px;
+	text-align: -webkit-match-parent;
+	color: #fff;
+}
+
+.sbmt {
+	-webkit-appearance: button;
+	cursor: pointer;
+	background-color: #666;
+	width: 10%;
+	height: 26px;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: #fff;
+}
+
+div#modal1 {
+	border: 1px solid #c8c7cc;
+}
+
+div#modal2 {
+	border: 1px solid #c8c7cc;
+}
+
+div#modal3 {
+	border: 1px solid #c8c7cc;
+}
+
+div#modal4 {
+	border: 1px solid #c8c7cc;
+}
+
+div#modal5 {
+	border: 1px solid #c8c7cc;
+}
+
+div#modal6 {
+	border: 1px solid #c8c7cc;
+}

@@ -1,0 +1,68 @@
+table#tabular {
+    border: 1px solid #eee;
+    font-family: inherit;
+    border-collapse: collapse;
+    position: relative;
+    margin-left: 7px;
+    margin-top: 45px;
+    text-align: justify;
+    background-color: #fff;
+}
+tr.odd {
+    background: #fff !important;
+}
+tr.even{
+background: hsla(0, 0%, 79%, 0.33) !important;
+}
+table.dataTable.no-footer {
+    border-bottom: 1px solid #eee !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee !important;
+    width: 0% !important;
+}
+tr {
+ font-size: 12px;
+    font-family: sans-serif;
+    font-style: inherit;
+    vertical-align: -webkit-baseline-middle;
+    border-color: inherit;
+}
+#search{
+    font-family: sans-serif;
+    font-size: 8px;
+    font-style: italic;
+    width: 84px;
+   
+} 
+div#tabular_wrapper {
+    margin-left: -233px;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: start;
+    margin-right: 117px;
+}
+a#clk {
+    margin-top: 15px;
+    width: 24px;
+    height: 26px;
+    font-size: 14px;
+    background: white;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.125);
+    position: absolute;
+    margin-left: 0px;
+}
+input#ed {
+    padding: 1px 64px;
+}
+input#sd {
+    padding: 1px 64px;
+}
+/* .datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+    top: 98px !important;
+    left: 284px  !important;
+    z-index: 10 !important;
+    display: block !important;
+} */

@@ -1,0 +1,108 @@
+#test{
+	margin-left: 54px;
+	width:1000px;
+	height:450px;
+	border:1px solid #c8c7cc;
+	
+}
+input#un {
+    height: 34px;
+    margin: 6px 0px 0px 135px;
+}
+
+select#ut {
+    height: 29px;
+    margin: 6px 0px 0px 6px;
+    width: 21.66%;
+    color: #666;
+    margin-left: 129px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+select#selectpicker {
+    height: 29px;
+    margin: 6px 0px 0px 6px;
+    width: 21.66%;
+    color: #666;
+    border-radius: 4px 4px 4px 4px;
+}
+#startDate {
+    margin: 0px;
+    width: 18.66% !important;
+    height: 34px;
+    margin-left: 426px;
+    position: absolute;
+}
+
+#endDate {
+    margin: 0px;
+    width: 18.66% !important;
+    height: 34px;
+    margin-left: 643px;
+    position: absolute;
+}
+a#iconFa {
+    color: black;
+    text-decoration: none;
+    margin: 11px 0px 0px 856px;
+    position: absolute;
+    font-size: 13px;
+    background: #eee;
+    height: 23px;
+    padding-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+}
+a#iconFaFa {
+    color: black;
+    text-decoration: none;
+    margin: 11px 0px 0px 6px;
+    position: absolute;
+    font-size: 13px;
+    background: #eee;
+    height: 23px;
+    padding-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+}
+div#cnt {
+    margin-top: 50px;
+}
+div#modalDialog {
+    margin-top: 57px;
+}
+div#modalHeight{
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    height: 182px !important;
+}
+div#modal-header{
+padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+	background: #eee;
+}
+.fa-2x {
+    font-size: 2em;
+    float: right;
+    margin-right: 112px;
+    margin-top: 6px;
+    color: #666;
+}
+
+select#unqiueID {
+    width: 158px;
+    height: 35px;
+    padding: 2px 16px 1px;
+    margin-left: 14px;
+    border-radius: 7px 7px;
+}
+input[type="button"] {
+    padding: 1px 1px 1px 1px;
+    margin-left: 5px;
+    width: 75px;
+    border-radius: 1px 1px 0px 0px;
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: inherit;
+    border: 1px solid #666;
+}

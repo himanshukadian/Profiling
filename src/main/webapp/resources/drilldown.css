@@ -1,0 +1,39 @@
+table.dataTable {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #c8c7cc !important;
+}
+tr{
+	text-align: center !important;
+}
+tr.even{
+	background: hsla(0, 0%, 79%, 0.33) !important;
+}
+tr.odd{
+background:  #fff !important;	
+}
+div#example_wrapper {
+    margin-top: 23px;
+}
+div#opt {
+    width: 99%;
+    border: 1px solid #c8c7cc;
+    height: 31px;
+    padding-top: 11px;
+    background: hsla(0, 0%, 79%, 0.33) !important;
+    padding-left: 11px;
+}
+span#val {
+    padding-left: 11px;
+    color: red;
+}
+pre {
+    display: block;
+    font-family: sans-serif;
+    white-space: pre;
+    margin: 1em 0px;
+    font-size: 23px;
+}

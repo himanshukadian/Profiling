@@ -1,0 +1,248 @@
+.paginateContainer {
+	display: block;
+	text-align: center;
+}
+
+.paginateContainer .paginateList, .paginateContainer .paginateShowAllList
+	{
+	display: inline-block;
+}
+
+.paginateContainer  li {
+	display: inline-block;
+}
+
+.paginateContainer .paginateAnchor {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+	line-height: 20px;
+	padding: 4px 12px;
+	background-color: #ddd;
+	color: #08c;
+	font-size: 16px;
+	min-width: 16px;
+	float: left;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	/* Select None */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.paginateContainer .paginateAnchor:hover {
+	color: #fff;
+	background-color: #2ae;
+	border-top: 1px solid #2ae;
+	border-bottom: 1px solid #2ae;
+}
+
+.paginateContainer .paginatePrevious .paginateAnchor {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.paginateContainer .paginateNext .paginateAnchor {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.paginateContainer .paginatePrevious .paginateAnchor:hover,
+	.paginateContainer .paginateNext .paginateAnchor:hover {
+	border: 1px solid #2ae;
+}
+
+.paginateContainer .paginateShowAllList .paginateAnchor {
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.paginateContainer .paginateShowAllList {
+	float: right;
+}
+
+.paginateContainer .paginateActive .paginateAnchor, .paginateContainer .paginateActive .paginateAnchor:hover
+	{
+	color: #fff;
+	cursor: default;
+	background-color: #08c;
+	border-top: 1px solid #08c;
+	border-bottom: 1px solid #08c;
+}
+
+.paginateContainer .paginateDisabled .paginateAnchor, .paginateContainer .paginateDisabled .paginateAnchor:hover
+	{
+	color: #bbb;
+	background-color: #eee;
+	cursor: default;
+	border: 1px solid #ddd;
+}
+
+.paginateContainer {
+	position: absolute !important;
+	display: block;
+	text-align: center;
+	margin-top: 61px !important;
+	margin-left: 52px;
+}
+
+.paginateContainer .paginateList, .paginateContainer .paginateShowAllList
+	{
+	display: inline-block
+}
+
+.paginateContainer li {
+	display: inline-block
+}
+
+.paginateContainer .paginateAnchor {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	cursor: pointer;
+	line-height: 20px;
+	padding: 4px 12px;
+	background-color: #ddd;
+	color: #666666;
+	font-size: 16px;
+	min-width: 16px;
+	float: left;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+.paginateContainer .paginateAnchor:hover {
+	color: #fff;
+	background-color: #416b9b !important;
+}
+
+.paginateContainer .paginatePrevious .paginateAnchor {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.paginateContainer .paginateNext .paginateAnchor {
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: 1px solid #ccc;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.paginateContainer .paginatePrevious .paginateAnchor:hover,
+	.paginateContainer .paginateNext .paginateAnchor:hover {
+	border: 1px solid #2ae
+}
+
+.paginateContainer .paginateShowAllList .paginateAnchor {
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	display: none;
+}
+
+.paginateContainer .paginateShowAllList {
+	float: right
+}
+
+.paginateContainer .paginateActive .paginateAnchor, .paginateContainer .paginateActive .paginateAnchor:hover
+	{
+	color: #fff;
+	cursor: default;
+	background-color: #416b9b;
+	border-top: 1px solid #416b9b;
+	border-bottom: 1px solid #416b9b;
+}
+
+.paginateContainer .paginateDisabled .paginateAnchor, .paginateContainer .paginateDisabled .paginateAnchor:hover
+	{
+	color: #bbb;
+	background-color: #eee;
+	cursor: default;
+	border: 1px solid #ddd
+}
+
+button.moveUp {
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+	margin-top: 5px;
+	margin-left: 590px;
+	background-color: #364F6A;
+	border-color: #2d4259;
+	color: #ffffff;
+	height: 30px;
+	font-size: 14px;
+	padding-left: 17px;
+	width: 86px;
+	border-radius: 7px;
+	border: 1px solid white;
+	position: absolute;
+}
+
+button.moveDown {
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+	margin-top: 5px;
+	margin-left: 502px;
+	background-color: #364F6A;
+	border-color: #2d4259;
+	color: #ffffff;
+	height: 30px;
+	font-size: 14px;
+	padding-left: 4px;
+	width: 86px;
+	border-radius: 7px;
+	border: 1px solid white;
+	position: absolute;
+}
+
+#systemtext th {
+	color: #fff;
+	background-color: #416b9b;
+	border-color: rgb(221, 221, 221);
+	text-align: start;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	direction: ltr;
+	font-family: "Open+Sans", sans-serif;
+	font-size: 13px;
+}
+
+input.longdesctxt {
+	position: absolute;
+	margin-left: 122px;
+	margin-top: 15px;
+	width: 253px;
+	height: 86px;
+}

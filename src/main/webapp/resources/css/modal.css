@@ -1,0 +1,43 @@
+#modalContent {
+    margin-left: -316px;
+    height: 610px;
+    width: 1206px;
+
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+    padding-left: 6px;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.btn-info {
+    width: 88px;
+    color: black !important;
+    background-color: white !important;
+    border-color: #666 !important;
+    height: 28px;
+    margin-bottom: 5px;
+}
+.modal-header {
+    padding: 0px!important;
+    border-bottom: 0px solid #e5e5e5 !important;
+}
+
+#selectDiv{
+	border:1px solid #666;
+    line-height: inherit;
+    height: 33px;
+    width: 137px;
+    padding-left: 28px;
+    color: black;
+    font-size: 13px;
+    font-style: normal;
+float: right;
+}

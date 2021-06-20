@@ -1,0 +1,207 @@
+/ You can add global styles to this file, and also import other style files /
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #c8c7cc !important;
+	background-color: #fff;
+	overflow-x: hidden;
+	overflow-y: sroll;
+	    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+a.logo {
+	color: #1a66bd;
+	text-decoration: none;
+	background-color: transparent;
+	position: absolute;
+	margin-left: 36%;
+	margin-top: 5%;
+}
+
+#leftContent {
+	color: #c8c7cc;
+	flex: 0 0 16.666667%;
+	max-width: 16.666667%;
+	height: 48px;
+	padding-top: 17px;
+	margin-left: -1px;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 0px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+div#liPortion {
+	border: 1px solid #666;
+	width: 209px;
+	height: -webkit-fill-available;
+	background-color: #0e161f;
+	position: fixed;
+	margin-top: 2px;
+}
+
+a#idWithContent {
+	text-decoration: none;
+	margin-left: 8% !important;
+	color: #c8c7cc;
+}
+
+.active:hover {
+	background: #666;
+	border: 1px solid #0e161f;
+}
+
+i#iContent {
+	width: 200px;
+	margin-left: 9px;
+}
+
+div#contentDisplay {
+	margin-top: 0.9%;
+	margin-left: 15.6%;
+	color: #666;
+	overflow-y: scroll;
+	height: -webkit-fill-available;
+	border: 1px solid white;
+	width: 84%;
+}
+
+.sidebarDummy {
+	width: 208px;
+	height: -webkit-fill-available;
+	z-index: 1000;
+}
+
+.col-sm-6 {
+	    position: relative;
+    min-height: 0px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+	width: 50%;
+	border: 0.1px solid #c8c7cc;
+}
+
+div#headerSection {
+	width: 100%;
+	border: 1px solid;
+	position: fixed;
+}
+
+div#container {
+	width: 100%;
+	height: 52px;
+	background-color: #18283a;
+	position: fixed;
+	z-index: 1000;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #fff;
+	padding-top: 1px;
+	margin-top: 1px;
+}
+
+.dummy {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+}
+
+div#logo {
+	margin-top: 0px;
+	font-size: 17px;
+	background: #0e161f;
+	width: 208px;
+	height: 48px;
+	cursor: pointer;
+	border-right: 1px solid #fff;
+}
+#middle {
+	position: relative;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 100%;
+}
+
+.row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+	width: 100%;
+}
+
+#leftCont {
+	width: 25%;
+	position: relative;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#graphDiv {
+	position: absolute;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 209px;
+	width: 84.5%;
+	background-color: #fff;
+}
+
+.forRow {
+	margin-top: 27px;
+	width: 100%;
+	height: -webkit-fill-available;
+}
+
+#graphForm {
+	margin-left: 20%;
+	color: #18283a;
+	    margin-top: 4px;
+}
+
+#e {
+	width: 100px;
+	background-color: lightslategray;
+	font-family: sans-serif;
+	border: 1px solid white !important;
+	margin-left: 0%;
+	text-align: center;
+	height: 33px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+i#faicon {
+	float: left;
+	margin-left: 2px;
+	color: red;
+}
+
+i#faicon2 {
+	float: left;
+	margin-left: 209px;
+	color: lightgreen;
+}
+.forDate{
+	    background-color: #666;
+    width: 30%;
+    height: 38px;
+    padding-left: 16px;
+    font-size: 14px;
+    text-align: -webkit-match-parent;
+    color:#fff;
+}
+
+.sbmt {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: #666;
+    width: 10%;
+    height: 26px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+  
+}
+	
