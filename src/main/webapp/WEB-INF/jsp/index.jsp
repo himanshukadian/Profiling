@@ -120,7 +120,7 @@
 		</div>
 	</div>
 	<div class="footer clearfix">
-		<div class="footer-inner">2018 &copy; ${ProjectName}</div>
+		<div class="footer-inner">2021 &copy; ${ProjectName}</div>
 		<div class="footer-items">
 			<span class="go-top"><i class="clip-chevron-up"></i></span>
 		</div>

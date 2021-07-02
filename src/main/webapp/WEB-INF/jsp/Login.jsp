@@ -73,7 +73,7 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="copyright">2018 &copy; ${ProjectName}.</div>
+		<div class="copyright">2021 &copy; ${ProjectName}.</div>
 	</div>
 </body>
 <!-- end: BODY -->

@@ -84,12 +84,12 @@
 							</thead>
 							<tbody>
 								<%
-									int serialNumber = 0;
+								int serialNumber = 0;
 								%>
 								<c:if test="${!empty Caimpaign}">
 									<c:forEach items="${Caimpaign}" var="Campaign">
 										<%
-											serialNumber++;
+										serialNumber++;
 										%>
 										<tr>
 											<td><%=serialNumber%></td>
@@ -111,10 +111,11 @@
 															class="fa fa-files-o"></i></a>
 													</c:when>
 													<c:when
-														test="${Campaign.status == 'LIVE' || Campaign.status == 'PAUSE'}">
+														test="${Campaign.status == 'LIVE' || Campaign.status == 'PAUSE' || Campaign.status == 'INIT'}">
 														<div>
 															<c:choose>
-																<c:when test="${Campaign.status == 'PAUSE'}">
+																<c:when
+																	test="${Campaign.status == 'PAUSE' || Campaign.status == 'INIT'}">
 																	<div class="btn-group">
 																		<button class="btn btn-primary dropdown-toggle btn-md"
 																			data-toggle="dropdown">
@@ -122,13 +123,22 @@
 																			Select <span class="caret"></span>
 																		</button>
 																		<ul role="menu" class="dropdown-menu pull-right">
-
-																			<li role="presentation"><a role="menuitem"
-																				tabindex="-1"
-																				onclick="document.getElementById('resumecampId').href ='UpdateStatus?status=LIVE&campaignId=${Campaign.id}'"
-																				data-toggle="modal" data-target="#ResumeCampaign">
-																					<i class="fa fa-play"></i> Resume
-																			</a></li>
+																			<c:if test="${ Campaign.status == 'PAUSE'}">
+																				<li role="presentation"><a role="menuitem"
+																					tabindex="-1"
+																					onclick="document.getElementById('resumecampId').href ='UpdateStatus?status=LIVE&campaignId=${Campaign.id}'"
+																					data-toggle="modal" data-target="#ResumeCampaign">
+																						<i class="fa fa-play"></i> Resume
+																				</a></li>
+																			</c:if>
+																			<c:if test="${ Campaign.status == 'INIT'}">
+																				<li role="presentation"><a role="menuitem"
+																					tabindex="-1"
+																					onclick="document.getElementById('resumecampId').href ='UpdateStatus?status=LIVE&campaignId=${Campaign.id}'"
+																					data-toggle="modal" data-target="#ResumeCampaign">
+																						<i class="fa fa-play"></i> Start
+																				</a></li>
+																			</c:if>
 																			<li role="presentation"><a
 																				onclick="document.getElementById('callbackLink').value ='${Campaign.callbackLink}';document.getElementById('clientLink').value ='${Campaign.clientLink}';document.getElementById('status').innerHTML ='${Campaign.status}';document.getElementById('status').value ='${Campaign.status}';document.getElementById('description').value ='${Campaign.description}';document.getElementById('id').value ='${Campaign.id}';document.getElementById('quota').value ='${Campaign.quota}';fun('${Campaign.status}','${Campaign.questions}','${Campaign.callbackLink}','${Campaign.clientLink}')"
 																				data-toggle="modal" data-target="#updateModal">

@@ -457,15 +457,11 @@ public class CampaignDaoImpl implements CampaignDao{
 	}
 
 	public int updateStatus(String status, int campaignId) {
-		String query="CREATE TABLE campaigndata_"+campaignId+"(id int NOT NULL PRIMARY KEY AUTO_INCREMENT,survey_id bigint,status_from_client varchar(125),start_date DATETIME,end_date DATETIME,provider_name varchar(125),provider_id varchar(125),respondent_id varchar(125)";
-		if(status.equals("LIVE")) {
-			List<CampaignQuestion> campaignQuestions=getCampaignQuestion(campaignId);
-			for(int i=0;i<campaignQuestions.size();i++) {
-				query=query+","+campaignQuestions.get(i).getTag()+" varchar(125)";
-			}
-			query=query+")";
+		String query="CREATE TABLE campaigndata_"+campaignId+"(id int NOT NULL PRIMARY KEY AUTO_INCREMENT,survey_id bigint,status_from_client varchar(125),start_date DATETIME,end_date DATETIME,provider_name varchar(125),provider_id varchar(125),respondent_id varchar(125))";
+		if(status.equals("INIT")) {
 			System.out.println(query);
 			jdbcTemplate.update(query);
+			status="LIVE";
 		}
 		return jdbcTemplate.update("UPDATE campaign_management SET status='"+status+"' WHERE campaignId="+campaignId);
 	}
